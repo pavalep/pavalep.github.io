@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shalabham Software — Swatantryam</title>
+<meta name="description" content="Shalabham Software builds Swatantryam, a family of free, open-source apps on one rule: the model helps, but the data stays with the user.">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#top">
+    <img src="assets/logo.png" alt="Shalabham Software" width="44" height="44">
+    <span class="brand-name">Shalabham Software</span>
+  </a>
+  <nav>
+    <a href="#apps">Apps</a>
+    <a href="#packages">Packages</a>
+    <a href="#founders">Founders</a>
+    <a class="cta" href="https://github.com/pavalep" rel="noopener">GitHub</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="eyebrow">Kerala, India &middot; Founded 2026 &middot; Bootstrapped</p>
+    <h1>Swatantryam</h1>
+    <p class="tagline">Open source. Human first.</p>
+    <p class="lead">
+      A family of free, open-source apps built on one rule: the model helps, but
+      the data stays with the user. Two apps today, both MIT licensed, both
+      usable without an account and without a subscription.
+    </p>
+    <p class="meta">
+      Udyam <span class="mono">UDYAM-KL-13-0119954</span> &middot; sole proprietorship &middot;
+      two co-founders &middot; <a href="mailto:pavalep@gmail.com">pavalep@gmail.com</a>
+    </p>
+  </section>
+
+  <section id="apps" class="apps">
+    <article class="app">
+      <div class="shot">
+        <img src="assets/simba.jpg" alt="Simba home screen" loading="lazy">
+      </div>
+      <div class="app-body">
+        <p class="kicker">Open media</p>
+        <h2>Simba</h2>
+        <p>
+          An open-source media player for Android, in React&nbsp;Native and
+          TypeScript. One typed adapter per catalogue &mdash; Podcast&nbsp;Index,
+          Jamendo, Audius, LibriVox, Internet Archive, TVmaze, Radio&nbsp;Browser,
+          MusicBrainz, IPTV &mdash; normalised into a single track and episode
+          model.
+        </p>
+        <ul>
+          <li>libmpv playback engine, published as <span class="mono">@simba-dev/react-native-media-player</span></li>
+          <li>MediaSession lock-screen controls, Picture-in-Picture, background audio</li>
+          <li>AI curation on the Gemini free tier, with a prompt registry and a Cloud Run service</li>
+        </ul>
+        <p class="links">
+          <a href="https://github.com/pavalep/Simba-ReactNative" rel="noopener">Source</a>
+          <a href="https://www.npmjs.com/package/@simba-dev/react-native-media-player" rel="noopener">Player library</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="app">
+      <div class="shot">
+        <img src="assets/habitrak.jpg" alt="Habitrak home screen" loading="lazy">
+      </div>
+      <div class="app-body">
+        <p class="kicker">Habit &amp; somatic wellbeing</p>
+        <h2>Habitrak</h2>
+        <p>
+          An offline-first wellbeing coach in Flutter, on Clean Architecture and
+          BLoC. Everything it knows stays on the device, in an encrypted local
+          vault. No account, no cloud, no paywall.
+        </p>
+        <ul>
+          <li>AES-256-CBC vault with SHA-256 key derivation</li>
+          <li>Box, 4-7-8 and coherent breathwork, generative sound baths, a mindful-walking tracker</li>
+          <li>A vector renderer that holds 120&nbsp;FPS without triggering a garbage collection</li>
+        </ul>
+        <p class="links">
+          <a href="https://github.com/codernta/habitrak_app" rel="noopener">Source</a>
+          <a href="https://codernta.github.io" rel="noopener">Portfolio</a>
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <section id="packages" class="strip">
+    <h2>Published packages</h2>
+    <p class="strip-lead">Open-source libraries we maintain and use in the apps above.</p>
+    <ul class="pkgs">
+      <li>
+        <span class="pkg-name">bharat_fx</span>
+        <span class="pkg-desc">Indian-market UI primitives for Flutter. MIT, zero dependencies.</span>
+        <a href="https://pub.dev/packages/bharat_fx" rel="noopener">pub.dev</a>
+      </li>
+      <li>
+        <span class="pkg-name">haptic_flow</span>
+        <span class="pkg-desc">A tactile studio: twelve curated haptic presets for Flutter.</span>
+        <a href="https://pub.dev/packages/haptic_flow" rel="noopener">pub.dev</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="founders" class="founders">
+    <h2>Founders</h2>
+    <div class="people">
+      <div class="person">
+        <img src="assets/paval.jpg" alt="Paval E P" loading="lazy">
+        <p class="pname">Paval E P</p>
+        <p class="prole">Co-founder &middot; media engine and AI</p>
+        <p class="plinks">
+          <a href="https://github.com/pavalep" rel="noopener">github.com/pavalep</a>
+          <a href="https://www.linkedin.com/in/pavalep" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+      <div class="person">
+        <img src="assets/nithin.jpg" alt="Nithin T A" loading="lazy">
+        <p class="pname">Nithin T A</p>
+        <p class="prole">Co-founder &middot; product and design</p>
+        <p class="plinks">
+          <a href="https://github.com/codernta" rel="noopener">github.com/codernta</a>
+          <a href="https://codernta.github.io" rel="noopener">codernta.github.io</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p class="tagline-sm">Enriching Opensource, Local Ideas on World Stage</p>
+  <p class="fine">
+    &copy; 2026 Shalabham Software &middot; Kerala, India &middot;
+    <a href="mailto:pavalep@gmail.com">pavalep@gmail.com</a>
+  </p>
+</footer>
+
+</body>
+</html>
